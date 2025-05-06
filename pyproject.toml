@@ -1,10 +1,11 @@
 [project]
 name = "secure-data-encryption"
 version = "0.1.0"
-description = "Add your description here"
+description = "Streamlit app for data encryption"
 readme = "README.md"
 requires-python = ">=3.8,<3.13"
 dependencies = []
 
-[tool.setuptools]
-packages = ["secure_data_encryption"]
+[tool.poetry]
+# This disables package installation step
+include = []
